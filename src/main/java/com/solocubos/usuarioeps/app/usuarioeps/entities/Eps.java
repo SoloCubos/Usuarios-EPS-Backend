@@ -1,14 +1,11 @@
 package com.solocubos.usuarioeps.app.usuarioeps.entities;
 
 import java.io.Serializable;
-import java.util.List;
-
-import org.hibernate.annotations.DialectOverride.ColumnDefaults;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
+
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
