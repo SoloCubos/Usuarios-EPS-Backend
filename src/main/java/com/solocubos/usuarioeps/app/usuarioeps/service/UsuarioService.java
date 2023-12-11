@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @Service
 public class UsuarioService implements GenericService<Usuario, Integer>{
 
-    
+    @Autowired
     protected UsuarioRepository usuarioRepository;
 
     @Override

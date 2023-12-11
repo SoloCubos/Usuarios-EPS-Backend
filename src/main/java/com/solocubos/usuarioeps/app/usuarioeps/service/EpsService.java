@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @Service
 public class EpsService implements GenericService<Eps, Integer>{
 
-    
+    @Autowired
     protected EpsRepository epsRepository;
 
     @Override
