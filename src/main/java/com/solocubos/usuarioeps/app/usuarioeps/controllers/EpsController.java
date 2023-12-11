@@ -22,7 +22,7 @@ public class EpsController {
     @Autowired
     EpsService servicio;
 
-    @GetMapping
+    @GetMapping("/status")
     public String epsStatus(){
         return "Todo bien perraaaaa";
     }

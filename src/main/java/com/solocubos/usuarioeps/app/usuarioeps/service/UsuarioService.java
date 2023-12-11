@@ -83,5 +83,5 @@ public class UsuarioService implements GenericService<Usuario, Integer>{
         }
     }
     
-
+    
 }
